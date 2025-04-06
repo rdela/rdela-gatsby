@@ -26,8 +26,8 @@ From [phrases.org.uk](https://www.phrases.org.uk/meanings/beware-of-greeks-beari
 > An allusion to the story of the wooden horse of Troy, used by the Greeks to trick their way into the city. It is recorded in Virgil’s *Aeneid*, Book 2, 19&nbsp;BC:
 >
 > > Do not trust the horse, Trojans. Whatever it is, I fear the Greeks even when they bring&nbsp;gifts.
->
-Of course that English version is a translation. Another translation, by John Dryden, has “Trust not their presents, nor admit the&nbsp;horse.”
+> 
+> Of course that English version is a translation. Another translation, by John Dryden, has “Trust not their presents, nor admit the&nbsp;horse.”
 >
 > The same thought was also recorded by Sophocles (496 - 406 BC), in&nbsp;*Ajax:*
 >
