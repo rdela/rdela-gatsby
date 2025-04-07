@@ -1,5 +1,5 @@
 ---
-title: Advanced Data Protection NO LONGER Vaporizes Shared Albums
+title: Advanced Data Protection + Vaporizes Shared Albums
 date: 2022-12-23T18:07:00.865Z
 excerpt: "My wallpaper on my phone disappeared and I was unable to access years of shared albums on any of my devices."
 image: "advanced-data-protection-icloud.jpg"
