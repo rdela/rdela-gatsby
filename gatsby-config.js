@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 // https://www.gatsbyjs.com/docs/environment-variables/#additional-environments-staging-test-etc
 let activeEnv =
   process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || `development`

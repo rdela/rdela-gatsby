@@ -13,7 +13,6 @@
     "develop": "gatsby develop",
     "devbuild": "GATSBY_ACTIVE_ENV=development gatsby build",
     "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
-    "lint": "eslint --ignore-path .gitignore --ignore-path .prettierignore --ext .js,.jsx .",
     "serve": "gatsby serve",
     "start": "gatsby develop",
     "svgo": "svgo --pretty --indent=2 --config=svgo.yml --multipass -f ./src/svg",
@@ -27,20 +26,6 @@
     "url": "git+https://github.com/rdela/rdela.com.git"
   },
   "homepage": "https://rdela.com/",
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "eslint --ignore-path .gitignore --ignore-path .prettierignore --fix",
-      "git add"
-    ],
-    "*.{md,css,scss,yaml,yml}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.svg": [
-      "svgo --pretty --indent=2 --config=svgo.yml --multipass",
-      "git add"
-    ]
-  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "6.7.2",
     "@fortawesome/free-brands-svg-icons": "6.7.2",
@@ -85,10 +70,6 @@
     "typography-theme-github": "0.16.19"
   },
   "devDependencies": {
-    "eslint": "9.24.0",
-    "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "4.6.2",
-    "lint-staged": "15.5.0",
     "prettier": "3.5.3",
     "svgo": "3.3.2"
   },
@@ -97,5 +78,6 @@
     "gatsby",
     "rdela",
     "ricky"
-  ]
+  ],
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

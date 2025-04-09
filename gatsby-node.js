@@ -35,28 +35,26 @@ exports.createPages = ({ graphql, actions }) => {
     const postArticle = path.resolve(`./src/templates/post-article.js`)
     const postList = path.resolve(`./src/templates/post-list.js`)
     resolve(
-      graphql(
-        `
-          {
-            allMarkdownRemark(
-              sort: { frontmatter: { date: DESC } }
-              limit: 1000
-            ) {
-              edges {
-                node {
-                  fields {
-                    slug
-                  }
-                  frontmatter {
-                    title
-                    draft
-                  }
+      graphql(`
+        {
+          allMarkdownRemark(
+            sort: { frontmatter: { date: DESC } }
+            limit: 1000
+          ) {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+                frontmatter {
+                  title
+                  draft
                 }
               }
             }
           }
-        `
-      ).then((result) => {
+        }
+      `).then((result) => {
         if (result.errors) {
           // eslint-disable-next-line no-console
           console.log(result.errors)
